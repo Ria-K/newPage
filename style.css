@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    
+}
+
+
+#login-form{
+    /* centering div to middle of page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;    
+    margin-top:20vh;
+
+    /* css for the login form box for its height, background, borders etc */
+    border: solid black;
+    backdrop-filter: blur(250px);
+    width: 40vh;
+    padding: 8px;
+    height:50vh;
+}
+
+
+.scrolling-image-container {
+    overflow: hidden;    
+    background: url("image.png");
+    border: solid black 10px;
+    height:97vh;
+  }
+
